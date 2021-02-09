@@ -38,3 +38,9 @@ console.log([1,2,3,4].constructor); // function Array() { [native code] }
 console.log({name: "ilia", age:30}.constructor); // function Object() { [native code] }
 console.log(new Date().constructor); // function Date() { [native code] }
 console.log(function() {}.constructor); // function Function() { [native code] }
+
+// converting numbers to string 
+
+// String() method and toString() method. both converts numbers into string
+
+// Javascript Bitwise Operations is important to see on chapter
