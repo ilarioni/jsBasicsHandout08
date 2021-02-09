@@ -44,3 +44,22 @@ console.log(function() {}.constructor); // function Function() { [native code] }
 // String() method and toString() method. both converts numbers into string
 
 // Javascript Bitwise Operations is important to see on chapter
+
+// Regular Expressions - RegExp
+
+// i is a modifier, that modifies search to be case-insensitive
+
+var str = "Visit W3Schools";
+var n = str.search(/w3schools/i);
+console.log(n);
+
+var str1 = "Visit Microsoft";
+var res = str1.replace(/microsoft/i, "W3Schools");
+console.log(res);
+
+// several modifiers that makes concrete tasks
+// i - case insensitive
+var str2 = "Visit Nuremberg";
+var patt2 = /nuremberg/i;
+var result2 = str2.match(patt2);
+console.log(result2);
