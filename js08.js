@@ -90,3 +90,10 @@ var str6 = "re, green, red, green, gren, gr, blue, yellow";
 var patt6 = /(red|green)/g;
 var result6 = str6.match(patt6);
 console.log(result6);
+
+// metacharachters
+// \d - find a digit 
+// \s - find a whitespace charachter
+// \b - find a match at the beginning of a word like: \bWORD
+// \uxxxx find the unicode character specified by hexadecimal
+
