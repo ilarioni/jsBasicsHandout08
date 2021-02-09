@@ -97,3 +97,7 @@ console.log(result6);
 // \b - find a match at the beginning of a word like: \bWORD
 // \uxxxx find the unicode character specified by hexadecimal
 
+// Qunatifier
+// n+ matches any string that contains at least one n
+// n* matches any string that contains zero or more occurrences of n 
+// n? matches any string that contains zero or one ocurrences of n
