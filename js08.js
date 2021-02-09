@@ -71,3 +71,22 @@ var result3 = str3.match(patt3);
 console.log(result3);
 
 // m - for multiline search
+
+// Brackets
+// [abc] - find any character between the brackets
+var str4 = "Is this all there hell?";
+var patt4 = /[h]/g;
+var result4 = str4.match(patt4);
+console.log(result4);
+
+// [0-9] find any digits between the brackets
+var str5 = "156452673890";
+var patt5 = /[1-4]/g;
+var result5 = str5.match(patt5);
+console.log(result5);
+
+// (x|y) find any of the alternatives separated with |
+var str6 = "re, green, red, green, gren, gr, blue, yellow";
+var patt6 = /(red|green)/g;
+var result6 = str6.match(patt6);
+console.log(result6);
