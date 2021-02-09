@@ -15,3 +15,18 @@
 // 4 - String
 // 5 - Number
 // 6 - Boolean
+
+// In JavaScript 2 data types cannot contain values 
+// 1 -- null
+// 2 -- undefined
+
+console.log(typeof("John"));
+console.log(typeof(3.14));
+console.log(typeof(Nan));
+console.log(typeof(false));
+console.log(typeof([1,2,3,4]));
+console.log(typeof(new Date()));
+console.log(typeof(myCar));
+console.log(typeof(null));
+console.log(typeof({name:"ilia", age: 30}));
+// console.log(typeof(function)); - returns function
