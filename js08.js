@@ -30,3 +30,11 @@ console.log(typeof(myCar));
 console.log(typeof(null));
 console.log(typeof({name:"ilia", age: 30}));
 // console.log(typeof(function)); - returns function
+
+console.log("john".constructor);  // function String() { [native code] }
+console.log(3.14.constructor); // function Number() { [native code] }
+console.log(false.constructor); // function Boolean() { [native code] }
+console.log([1,2,3,4].constructor); // function Array() { [native code] }
+console.log({name: "ilia", age:30}.constructor); // function Object() { [native code] }
+console.log(new Date().constructor); // function Date() { [native code] }
+console.log(function() {}.constructor); // function Function() { [native code] }
