@@ -63,3 +63,11 @@ var str2 = "Visit Nuremberg";
 var patt2 = /nuremberg/i;
 var result2 = str2.match(patt2);
 console.log(result2);
+
+// g - perform a global match
+var str3 = "Is this all there is?";
+var patt3 = /is/g;
+var result3 = str3.match(patt3);
+console.log(result3);
+
+// m - for multiline search
